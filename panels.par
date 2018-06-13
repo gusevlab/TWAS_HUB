@@ -1,0 +1,55 @@
+ID	PANEL	STUDY	TISSUE	N
+GT_ADIP_SUB	GTEx.Adipose_Subcutaneous	GTEx	Adipose Subcutaneous	298
+GT_ADIP_VIS	GTEx.Adipose_Visceral_Omentum	GTEx	Adipose Visceral Omentum	185
+GT_ADRENAL	GTEx.Adrenal_Gland	GTEx	Adrenal Gland	126
+GT_ART_AOR	GTEx.Artery_Aorta	GTEx	Artery Aorta	197
+GT_ART_COR	GTEx.Artery_Coronary	GTEx	Artery Coronary	118
+GT_ART_TIB	GTEx.Artery_Tibial	GTEx	Artery Tibial	285
+GT_BRN_BG	GTEx.Brain_Caudate_basal_ganglia	GTEx	Brain Caudate basal ganglia	100
+GT_BRN_CH	GTEx.Brain_Cerebellar_Hemisphere	GTEx	Brain Cerebellar Hemisphere	89
+GT_BRN_CE	GTEx.Brain_Cerebellum	GTEx	Brain Cerebellum	103
+GT_BRN_CO	GTEx.Brain_Cortex	GTEx	Brain Cortex	96
+GT_BRN_FC	GTEx.Brain_Frontal_Cortex_BA9	GTEx	Brain Frontal Cortex BA9	92
+GT_BRN_HI	GTEx.Brain_Hippocampus	GTEx	Brain Hippocampus	81
+GT_BRN_HY	GTEx.Brain_Hypothalamus	GTEx	Brain Hypothalamus	81
+GT_BRN_NABG	GTEx.Brain_Nucleus_accumbens_basal_ganglia	GTEx	Brain Nucleus accumbens basal ganglia	93
+GT_BRN_PBG	GTEx.Brain_Putamen_basal_ganglia	GTEx	Brain Putamen basal ganglia	82
+GT_BRST	GTEx.Breast_Mammary_Tissue	GTEx	Breast Mammary Tissue	183
+GT_BRST_M	GTEx.Breast_Mammary_Tissue.SEX_1	GTEx	Breast Mammary Tissue (Male)	80
+GT_BRST_F	GTEx.Breast_Mammary_Tissue.SEX_2	GTEx	Breast Mammary Tissue (Female)	103
+GT_LCL	GTEx.Cells_EBV-transformed_lymphocytes	GTEx	Cells EBV-transformed lymphocytes	114
+GT_FIBRO	GTEx.Cells_Transformed_fibroblasts	GTEx	Cells Transformed fibroblasts	272
+GT_COLN_SIG	GTEx.Colon_Sigmoid	GTEx	Colon Sigmoid	124
+GT_COLN_TRN	GTEx.Colon_Transverse	GTEx	Colon Transverse	169
+GT_ESOP_GJ	GTEx.Esophagus_Gastroesophageal_Junction	GTEx	Esophagus Gastroesophageal Junction	127
+GT_ESOP_MUC	GTEx.Esophagus_Mucosa	GTEx	Esophagus Mucosa	241
+GT_ESOP_MUS	GTEx.Esophagus_Muscularis	GTEx	Esophagus Muscularis	218
+GT_HRT_ATR	GTEx.Heart_Atrial_Appendage	GTEx	Heart Atrial Appendage	159
+GT_HRT_LV	GTEx.Heart_Left_Ventricle	GTEx	Heart Left Ventricle	190
+GT_LIV	GTEx.Liver	GTEx	Liver	97
+GT_LUNG	GTEx.Lung	GTEx	Lung	278
+GT_MUSC	GTEx.Muscle_Skeletal	GTEx	Muscle Skeletal	361
+GT_NRV_TIB	GTEx.Nerve_Tibial	GTEx	Nerve Tibial	256
+GT_OV	GTEx.Ovary	GTEx	Ovary	85
+GT_PANC	GTEx.Pancreas	GTEx	Pancreas	149
+GT_PITU	GTEx.Pituitary	GTEx	Pituitary	87
+GT_PROS	GTEx.Prostate	GTEx	Prostate	87
+GT_SKIN_NE	GTEx.Skin_Not_Sun_Exposed_Suprapubic	GTEx	Skin Not Sun Exposed Suprapubic	196
+GT_SKIN_E	GTEx.Skin_Sun_Exposed_Lower_leg	GTEx	Skin Sun Exposed Lower leg	302
+GT_SITI	GTEx.Small_Intestine_Terminal_Ileum	GTEx	Small Intestine Terminal Ileum	77
+GT_SPLN	GTEx.Spleen	GTEx	Spleen	89
+GT_STMCH	GTEx.Stomach	GTEx	Stomach	170
+GT_TSTS	GTEx.Testis	GTEx	Testis	157
+GT_THYROID	GTEx.Thyroid	GTEx	Thyroid	278
+GT_UTERUS	GTEx.Uterus	GTEx	Uterus	70
+GT_VAGINA	GTEx.Vagina	GTEx	Vagina	79
+GT_WB	GTEx.Whole_Blood	GTEx	Whole Blood	338
+MET_ADIP	METSIM.ADIPOSE.RNASEQ	METSIM	Adipose	563
+NTR_WB	NTR.BLOOD.RNAARR	NTR	Blood	1247
+ROS_BRN	ROSMAP.BRAIN.RNASEQ	ROSMAP	Brain Pre-frontal Cortex	600
+YFS_WB	YFS.BLOOD.RNAARR	YFS	Blood	1264
+CMC_BRN	CMC.BRAIN.RNASEQ	CommonMind	Brain Pre-frontal Cortex	452
+TCGA_BRCA_N	TCGA.BRCA.NORMAL	TCGA	Breast Tumor	1031
+TCGA_BRCA_T	TCGA.BRCA.TUMOR	TCGA	Breast Normal	80
+TCGA_OVCA_T	TCGA.OVCA.TUMOR	TCGA	Ovarian Tumor	363
+TCGA_PRAD_T	TCGA.PRAD.TUMOR	TCGA	Prostate Tumor	483

@@ -1,0 +1,325 @@
+OUTPUT	ID	N	REF	YEAR	NAME	TYPE
+BCAC.dat	Breast_Cancer	228951	Michailidou 2017 Nature	2017	Breast Cancer	Disease cancer
+OCAC.dat	Ovarian_Cancer	66450	Phelan et al. 2017 Nat Genet	2017	Ovarian Cancer	Disease cancer
+PRAC.dat	Prostate_Cancer	72729	Schumacher et al. 2017	2017	Prostate Cancer	Disease cancer
+PASS_AgeFirstBirth.dat	AgeFirstBirth	222037	Barban et al. 2016 Nat Genet	2016	Age at First Birth	Quantitative
+PASS_Bipolar_Disorder.dat	Bipolar_Disorder	16731	BIP/PGC 2011 Nat Genet 	2011	Bipolar Disorder	Disease psychiatric
+PASS_BMI1.dat	BMI_2010	118122	Speliotes et al. 2010 Nat Genet 	2010	Body Mass Index (BMI) (2010)	Quantitative
+PASS_Coronary_Artery_Disease.dat	Coronary_Artery_Disease	56422	Schunkert et al. 2011 Nat Genet 	2011	Coronary Artery Disease (CAD)	Disease
+PASS_Crohns_Disease.dat	Crohns_Disease	20883	Jostins et al. 2012 Nature 	2012	Crohns Disease	Disease
+PASS_ENIGMA2_MeanPutamen.dat	ENIGMA2_MeanPutamen	11671	Hibar et al. 2015 Nature	2015	Mean Putamen Volume	Quantitative
+PASS_FastingGlucose_Manning.dat	Fasting_Glucose	58074	Manning et. al. 2012 Nat Genet	2012	Fasting Glucose	Quantitative
+PASS_HbA1C.dat	HbA1C	46368	Soranzo et al. 2010 Diabetes	2010	HbA1C	Quantitative
+PASS_HDL.dat	HDL	86437	Teslovich et al. 2010 Nature	2010	HDL Cholesterol	Quantitative
+PASS_LDL.dat	LDL	82170	Teslovich et al. 2010 Nature	2010	LDL Cholesterol	Quantitative
+PASS_Lupus.dat	Lupus	14267	Bentham et al. 2015 Nat Genet	2015	Lupus	Disease
+PASS_Neuroticism.dat	Neuroticism	170911	Okbay et al. 2016 Nat Genet	2016	Neuroticism	Disease psychiatric
+PASS_Primary_biliary_cirrhosis.dat	Primary_biliary_cirrhosis	13239	Cordell et al. 2015 Nat Commun	2015	Primary Biliary Cirrhosis	Disease
+PASS_Rheumatoid_Arthritis.dat	Rheumatoid_Arthritis	25604	Okada et al. 2014 Nature 	2014	Rheumatoid Arthritis	Disease
+PASS_Schizophrenia.dat	Schizophrenia	70100	SCZ/PGC 2014 Nature	2014	Schizophrenia	Disease psychiatric
+PASS_Triglycerides.dat	Triglycerides	82990	Teslovich et al. 2010 Nature	2010	Triglycerides	Quantitative
+PASS_Type_2_Diabetes.dat	Type_2_Diabetes	48761	Morris et al. 2012 Nat Genet 	2012	Type 2 Diabetes (T2D)	Disease
+PASS_Ulcerative_Colitis.dat	Ulcerative_Colitis	27432	Jostins et al. 2012 Nature 	2012	Ulcerative Colitis	Disease
+UKB_460K.blood_EOSINOPHIL_COUNT.dat	EOSINOPHIL_COUNT	439938	UKBB Loh et al. biorxiv	2018	Blood Eosinophil Count	Quantitative
+UKB_460K.blood_PLATELET_COUNT.dat	blood_PLATELET_COUNT	444382	UKBB Loh et al. biorxiv	2018	Blood Platelet Count	Quantitative
+UKB_460K.blood_RED_COUNT.dat	RED_COUNT	445174	UKBB Loh et al. biorxiv	2018	Blood Red Count	Quantitative
+UKB_460K.blood_WHITE_COUNT.dat	WHITE_COUNT	444502	UKBB Loh et al. biorxiv	2018	Blood White Count	Quantitative
+UKB_460K.bmd_HEEL_TSCOREz.dat	HEEL_TSCOREz	445921	UKBB Loh et al. biorxiv	2018	Heel T-Score	Quantitative
+UKB_460K.body_BMIz.dat	UKBB_BMI	457824	UKBB Loh et al. biorxiv	2018	BMI	Quantitative
+UKB_460K.body_HEIGHTz.dat	UKBB_HEIGHT	458303	UKBB Loh et al. biorxiv	2018	Height	Quantitative
+UKB_460K.body_WHRadjBMIz.dat	UKBB_WHR	458417	UKBB Loh et al. biorxiv	2018	Waist Hip Ratio (WHR)	Quantitative
+UKB_460K.bp_SYSTOLICadjMEDz.dat	SYSTOLICadjMEDz	422771	UKBB Loh et al. biorxiv	2018	Systolic Blood Pressure	Quantitative
+UKB_460K.cov_SMOKING_STATUS.dat	UKBB_SMOKING_STATUS	457683	UKBB Loh et al. biorxiv	2018	Smoking Status	Behavioral
+UKB_460K.disease_ALLERGY_ECZEMA_DIAGNOSED.dat	ALLERGY_ECZEMA_DIAGNOSED	458699	UKBB Loh et al. biorxiv	2018	Allergy or Eczema	Disease
+UKB_460K.disease_CARDIOVASCULAR.dat	UKBB_CAD	459324	UKBB Loh et al. biorxiv	2018	Cardiovascular Disease	Disease
+UKB_460K.disease_HYPOTHYROIDISM_SELF_REP.dat	HYPOTHYROIDISM_SELF_REP	459324	UKBB Loh et al. biorxiv	2018	Hypothyroidism (self reported)	Disease
+UKB_460K.disease_RESPIRATORY_ENT.dat	RESPIRATORY_ENT	459324	UKBB Loh et al. biorxiv	2018	Respiratory disease	Disease
+UKB_460K.disease_T2D.dat	UKBB_T2D	459324	UKBB Loh et al. biorxiv	2018	Type 2 Diabetes (T2D)	Disease
+UKB_460K.lung_FEV1FVCzSMOKE.dat	FEV1FVCzSMOKE	371949	UKBB Loh et al. biorxiv	2018	Lung FEV1/FVC ratio	Quantitative
+UKB_460K.lung_FVCzSMOKE.dat	FVCzSMOKE	371949	UKBB Loh et al. biorxiv	2018	Lung FVC	Quantitative
+UKB_460K.mental_NEUROTICISM.dat	UKBB_NEUROTICISM	372066	UKBB Loh et al. biorxiv	2018	Neuroticism	Disease psychiatric
+UKB_460K.other_MORNINGPERSON.dat	UKBB_MORNINGPERSON	410520	UKBB Loh et al. biorxiv	2018	Chronotype (morning person)	Behavioral
+UKB_460K.pigment_HAIR.dat	pigment_HAIR	452720	UKBB Loh et al. biorxiv	2018	Hair Pigment	Quantitative
+UKB_460K.pigment_TANNING.dat	pigment_TANNING	449984	UKBB Loh et al. biorxiv	2018	Tanning	Quantitative
+46.dat	UKBB_46	335821	UKBB Neale	2018	Hand grip strength (left)	Rapid
+137.dat	UKBB_137	337159	UKBB Neale	2018	Number of treatments/medications taken	Rapid
+1598.dat	UKBB_1598	240658	UKBB Neale	2018	Average weekly spirits intake	Rapid
+1950.dat	UKBB_1950	327832	UKBB Neale	2018	Sensitivity / hurt feelings	Rapid
+2050.dat	UKBB_2050	323267	UKBB Neale	2018	Frequency of depressed mood in last 2 weeks	Rapid
+2247_1.dat	UKBB_2247_1	323978	UKBB Neale	2018	Hearing difficulty/problems: Yes	Rapid
+2375.dat	UKBB_2375	151113	UKBB Neale	2018	Relative age of first facial hair	Rapid
+2473.dat	UKBB_2473	331274	UKBB Neale	2018	Other serious medical condition/disability diagnosed by doctor	Rapid
+2814.dat	UKBB_2814	180631	UKBB Neale	2018	Ever used hormone-replacement therapy (HRT)	Rapid
+3591.dat	UKBB_3591	159679	UKBB Neale	2018	Ever had hysterectomy (womb removed)	Rapid
+4080.dat	UKBB_4080	317754	UKBB Neale	2018	Systolic blood pressure, automated reading	Rapid
+6148_1.dat	UKBB_6148_1	108817	UKBB Neale	2018	Eye problems/disorders: Diabetes related eye disease	Rapid
+6150_2.dat	UKBB_6150_2	336683	UKBB Neale	2018	Angina	Rapid
+6153_4.dat	UKBB_6153_4	180203	UKBB Neale	2018	Medication for hormone replacement therapy	Rapid
+6155_100.dat	UKBB_6155_100	335591	UKBB Neale	2018	Vitamin and mineral supplements	Rapid
+6179_4.dat	UKBB_6179_4	336314	UKBB Neale	2018	Supplements: Zinc	Rapid
+20003_1140923346.dat	UKBB_20003_1140923346	337159	UKBB Neale	2018	Medication: Co-codamol	Rapid
+20003_1140884600.dat	UKBB_20003_1140884600	337159	UKBB Neale	2018	Medication: Metformin	Rapid
+20107_9.dat	UKBB_20107_9	293407	UKBB Neale	2018	Diabetes (father)	Rapid
+20110_9.dat	UKBB_20110_9	309953	UKBB Neale	2018	Diabetes (mother)	Rapid
+20111_12.dat	UKBB_20111_12	260744	UKBB Neale	2018	Severe depression (siblings)	Rapid
+20162.dat	UKBB_20162	101726	UKBB Neale	2018	Pack years adult smoking proportion	Rapid
+23107.dat	UKBB_23107	331301	UKBB Neale	2018	Impedance of leg (right)	Rapid
+23117.dat	UKBB_23117	331258	UKBB Neale	2018	Leg fat-free mass (left)	Rapid
+23127.dat	UKBB_23127	331113	UKBB Neale	2018	Trunk fat percentage	Rapid
+47.dat	UKBB_47	335842	UKBB Neale	2018	Hand grip strength (right)	Rapid
+189.dat	UKBB_189	336798	UKBB Neale	2018	Townsend deprivation index at recruitment	Rapid
+1239.dat	UKBB_1239	337030	UKBB Neale	2018	Current tobacco smoking	Rapid
+1608.dat	UKBB_1608	241381	UKBB Neale	2018	Average weekly fortified wine intake	Rapid
+1787.dat	UKBB_1787	289727	UKBB Neale	2018	Maternal smoking around birth	Rapid
+1960.dat	UKBB_1960	330549	UKBB Neale	2018	Fed-up feelings	Rapid
+2060.dat	UKBB_2060	326730	UKBB Neale	2018	Frequency of unenthusiasm / disinterest in last 2 weeks	Rapid
+2385.dat	UKBB_2385	144645	UKBB Neale	2018	Relative age voice broke	Rapid
+2492.dat	UKBB_2492	336330	UKBB Neale	2018	Taking other prescription medications	Rapid
+2714.dat	UKBB_2714	176008	UKBB Neale	2018	Age when periods started (menarche)	Rapid
+2834.dat	UKBB_2834	178676	UKBB Neale	2018	Bilateral oophorectomy (both ovaries removed)	Rapid
+4106.dat	UKBB_4106	106254	UKBB Neale	2018	Heel bone mineral density (BMD) T-score, automated (left)	Rapid
+4803_14.dat	UKBB_4803_14	109411	UKBB Neale	2018	Tinnitus: Yes, but not now, but have in the past	Rapid
+6138_4.dat	UKBB_6138_4	334070	UKBB Neale	2018	Qualifications: CSEs or equivalent	Rapid
+6145_1.dat	UKBB_6145_1	335219	UKBB Neale	2018	Serious illness, injury or assault to yourself	Rapid
+6150_4.dat	UKBB_6150_4	336683	UKBB Neale	2018	High blood pressure	Rapid
+6152_9.dat	UKBB_6152_9	336782	UKBB Neale	2018	Hayfever, allergic rhinitis or eczema	Rapid
+6155_7.dat	UKBB_6155_7	335591	UKBB Neale	2018	Multivitamins +/- minerals	Rapid
+6159_5.dat	UKBB_6159_5	336650	UKBB Neale	2018	Stomach or abdominal pain in last month	Rapid
+6179_2.dat	UKBB_6179_2	336314	UKBB Neale	2018	Supplements: Glucosamine	Rapid
+20002_1458.dat	UKBB_20002_1458	337159	UKBB Neale	2018	Diverticular disease/diverticulitis (self-reported)	Rapid
+20003_1140866738.dat	UKBB_20003_1140866738	337159	UKBB Neale	2018	Medication: Atenolol	Rapid
+20003_1141191044.dat	UKBB_20003_1141191044	337159	UKBB Neale	2018	Medication: Levothyroxine sodium	Rapid
+20015.dat	UKBB_20015	336172	UKBB Neale	2018	Sitting height	Rapid
+20107_6.dat	UKBB_20107_6	294680	UKBB Neale	2018	Chronic bronchitis/emphysema (father)	Rapid
+20110_8.dat	UKBB_20110_8	311681	UKBB Neale	2018	High blood pressure (mother)	Rapid
+21001.dat	UKBB_21001	336107	UKBB Neale	2018	Body mass index (BMI)	Rapid
+23108.dat	UKBB_23108	331296	UKBB Neale	2018	Impedance of leg (left)	Rapid
+23118.dat	UKBB_23118	331253	UKBB Neale	2018	Leg predicted mass (left)	Rapid
+23128.dat	UKBB_23128	331093	UKBB Neale	2018	Trunk fat mass	Rapid
+48.dat	UKBB_48	336639	UKBB Neale	2018	Waist circumference	Rapid
+399.dat	UKBB_399	336881	UKBB Neale	2018	Number of incorrect matches in round	Rapid
+1249.dat	UKBB_1249	310749	UKBB Neale	2018	Past tobacco smoking	Rapid
+1618.dat	UKBB_1618	172454	UKBB Neale	2018	Alcohol usually taken with meals	Rapid
+1970.dat	UKBB_1970	328725	UKBB Neale	2018	Nervous feelings	Rapid
+2070.dat	UKBB_2070	325169	UKBB Neale	2018	Frequency of tenseness / restlessness in last 2 weeks	Rapid
+2257.dat	UKBB_2257	330759	UKBB Neale	2018	Hearing difficulty/problems with background noise	Rapid
+2395_2.dat	UKBB_2395_2	154988	UKBB Neale	2018	Hair/balding pattern: Pattern 2	Rapid
+2724.dat	UKBB_2724	152035	UKBB Neale	2018	Had menopause	Rapid
+2844.dat	UKBB_2844	179567	UKBB Neale	2018	Had other major operations	Rapid
+3062.dat	UKBB_3062	307638	UKBB Neale	2018	Forced vital capacity (FVC)	Rapid
+4125.dat	UKBB_4125	106251	UKBB Neale	2018	Heel bone mineral density (BMD) T-score, automated (right)	Rapid
+4631.dat	UKBB_4631	106868	UKBB Neale	2018	Ever unenthusiastic/disinterested for a whole week	Rapid
+6138_100.dat	UKBB_6138_100	334070	UKBB Neale	2018	Qualifications: None of the above	Rapid
+6145_6.dat	UKBB_6145_6	335219	UKBB Neale	2018	Financial difficulties in last 2 years	Rapid
+6149_100.dat	UKBB_6149_100	336138	UKBB Neale	2018	Mouth/teeth dental problems	Rapid
+6150_1.dat	UKBB_6150_1	336683	UKBB Neale	2018	Heart attack	Rapid
+6152_100.dat	UKBB_6152_100	336782	UKBB Neale	2018	Allergy	Rapid
+6159_8.dat	UKBB_6159_8	336650	UKBB Neale	2018	Pain all over the body in last month	Rapid
+20002_1220.dat	UKBB_20002_1220	337159	UKBB Neale	2018	Diabetes (self-reported) 	Rapid
+20002_1387.dat	UKBB_20002_1387	337159	UKBB Neale	2018	Hayfever/allergic rhinitis (self-reported)	Rapid
+20003_1140860806.dat	UKBB_20003_1140860806	337159	UKBB Neale	2018	Medication: Ramipril	Rapid
+20003_1140861958.dat	UKBB_20003_1140861958	337159	UKBB Neale	2018	Medication: Simvastatin	Rapid
+20016.dat	UKBB_20016	108818	UKBB Neale	2018	Fluid intelligence score	Rapid
+20111_100.dat	UKBB_20111_100	262734	UKBB Neale	2018	Illnesses of siblings	Rapid
+20127.dat	UKBB_20127	274108	UKBB Neale	2018	Neuroticism score	Rapid
+21002.dat	UKBB_21002	336227	UKBB Neale	2018	Weight	Rapid
+23109.dat	UKBB_23109	331279	UKBB Neale	2018	Impedance of arm (right)	Rapid
+23119.dat	UKBB_23119	331249	UKBB Neale	2018	Arm fat percentage (right)	Rapid
+23129.dat	UKBB_23129	331030	UKBB Neale	2018	Trunk fat-free mass	Rapid
+49.dat	UKBB_49	336601	UKBB Neale	2018	Hip circumference	Rapid
+757.dat	UKBB_757	180531	UKBB Neale	2018	Time employed in main current job	Rapid
+1628.dat	UKBB_1628	313248	UKBB Neale	2018	Alcohol intake versus 10 years previously	Rapid
+1807.dat	UKBB_1807	248726	UKBB Neale	2018	Father\'s age at death	Rapid
+1980.dat	UKBB_1980	328717	UKBB Neale	2018	Worrier / anxious feelings	Rapid
+2080.dat	UKBB_2080	327528	UKBB Neale	2018	Frequency of tiredness / lethargy in last 2 weeks	Rapid
+2296.dat	UKBB_2296	336617	UKBB Neale	2018	Falls in the last year	Rapid
+2395_3.dat	UKBB_2395_3	154988	UKBB Neale	2018	Hair/balding pattern: Pattern 3	Rapid
+2734.dat	UKBB_2734	180952	UKBB Neale	2018	Number of live births	Rapid
+3063.dat	UKBB_3063	307638	UKBB Neale	2018	Forced expiratory volume in 1-second (FEV1)	Rapid
+4194.dat	UKBB_4194	110153	UKBB Neale	2018	Pulse rate	Rapid
+4526.dat	UKBB_4526	110935	UKBB Neale	2018	Happiness	Rapid
+4825.dat	UKBB_4825	110439	UKBB Neale	2018	Noisy workplace	Rapid
+6138_2.dat	UKBB_6138_2	334070	UKBB Neale	2018	Qualifications: A levels/AS levels or equivalent	Rapid
+6145_2.dat	UKBB_6145_2	335219	UKBB Neale	2018	Serious illness, injury or assault of a close relative in last 2 years	Rapid
+6149_6.dat	UKBB_6149_6	336138	UKBB Neale	2018	Mouth/teeth dental problems: Dentures	Rapid
+6152_8.dat	UKBB_6152_8	336782	UKBB Neale	2018	Asthma	Rapid
+6154_2.dat	UKBB_6154_2	333581	UKBB Neale	2018	Medication: Ibuprofen (e.g. Nurofen)	Rapid
+6177_1.dat	UKBB_6177_1	154702	UKBB Neale	2018	Medication: Cholesterol lowering	Rapid
+20002_1286.dat	UKBB_20002_1286	337159	UKBB Neale	2018	Depression (self-reported)	Rapid
+20003_1140864752.dat	UKBB_20003_1140864752	337159	UKBB Neale	2018	Medication: Lansoprazole	Rapid
+20018.dat	UKBB_20018	111099	UKBB Neale	2018	Prospective memory result	Rapid
+20107_3.dat	UKBB_20107_3	294142	UKBB Neale	2018	Lung cancer (father)	Rapid
+20110_100.dat	UKBB_20110_100	311264	UKBB Neale	2018	Illnesses of mother	Rapid
+20150.dat	UKBB_20150	255492	UKBB Neale	2018	Forced expiratory volume in 1-second (FEV1), Best measure	Rapid
+21021.dat	UKBB_21021	109813	UKBB Neale	2018	Pulse wave Arterial Stiffness index	Rapid
+23110.dat	UKBB_23110	331292	UKBB Neale	2018	Impedance of arm (left)	Rapid
+23120.dat	UKBB_23120	331226	UKBB Neale	2018	Arm fat mass (right)	Rapid
+23130.dat	UKBB_23130	330995	UKBB Neale	2018	Trunk predicted mass	Rapid
+50.dat	UKBB_50	336474	UKBB Neale	2018	Standing height	Rapid
+767.dat	UKBB_767	188166	UKBB Neale	2018	Length of working week for main job	Rapid
+1269.dat	UKBB_1269	305723	UKBB Neale	2018	Exposure to tobacco smoke at home	Rapid
+1677.dat	UKBB_1677	255881	UKBB Neale	2018	Breastfed as a baby	Rapid
+1990.dat	UKBB_1990	327232	UKBB Neale	2018	Tense / \'highly strung\'	Rapid
+2090.dat	UKBB_2090	335108	UKBB Neale	2018	Seen doctor (GP) for nerves, anxiety, tension or depression	Rapid
+2395_4.dat	UKBB_2395_4	154988	UKBB Neale	2018	Hair/balding pattern: Pattern 4	Rapid
+2744.dat	UKBB_2744	145558	UKBB Neale	2018	Birth weight of first child	Rapid
+3064.dat	UKBB_3064	307638	UKBB Neale	2018	Peak expiratory flow (PEF)	Rapid
+4195.dat	UKBB_4195	110153	UKBB Neale	2018	Pulse wave reflection index	Rapid
+4653.dat	UKBB_4653	108925	UKBB Neale	2018	Ever highly irritable/argumentative for 2 days	Rapid
+4836.dat	UKBB_4836	109889	UKBB Neale	2018	Loud music exposure frequency	Rapid
+6138_3.dat	UKBB_6138_3	334070	UKBB Neale	2018	Qualifications: O levels/GCSEs or equivalent	Rapid
+6149_3.dat	UKBB_6149_3	336138	UKBB Neale	2018	Mouth/teeth dental problems: Bleeding gums	Rapid
+6152_5.dat	UKBB_6152_5	336782	UKBB Neale	2018	Blood clot in the leg (DVT)	Rapid
+6154_3.dat	UKBB_6154_3	333581	UKBB Neale	2018	Medication: Paracetamol	Rapid
+6159_1.dat	UKBB_6159_1	336650	UKBB Neale	2018	Headache pain in last month	Rapid
+6177_100.dat	UKBB_6177_100	154702	UKBB Neale	2018	Medication for cholesterol, blood pressure or diabetes	Rapid
+20002_1277.dat	UKBB_20002_1277	337159	UKBB Neale	2018	Glaucoma (self-reported)	Rapid
+20002_1466.dat	UKBB_20002_1466	337159	UKBB Neale	2018	Gout (self-reported)	Rapid
+20002_1226.dat	UKBB_20002_1226	337159	UKBB Neale	2018	Hypothyroidism/myxoedema (self-reported)	Rapid
+20003_1140879802.dat	UKBB_20003_1140879802	337159	UKBB Neale	2018	Medication: Amlodipine	Rapid
+20003_1140861998.dat	UKBB_20003_1140861998	337159	UKBB Neale	2018	Medication: Ventolin 100micrograms inhaler	Rapid
+20022.dat	UKBB_20022	193063	UKBB Neale	2018	Birth weight	Rapid
+20110_6.dat	UKBB_20110_6	309793	UKBB Neale	2018	Chronic bronchitis/emphysema (mother)	Rapid
+20111_8.dat	UKBB_20111_8	262361	UKBB Neale	2018	High blood pressure (siblings)	Rapid
+20151.dat	UKBB_20151	255492	UKBB Neale	2018	Forced vital capacity (FVC), Best measure	Rapid
+23099.dat	UKBB_23099	331117	UKBB Neale	2018	Body fat percentage	Rapid
+23111.dat	UKBB_23111	331296	UKBB Neale	2018	Leg fat percentage (right)	Rapid
+23121.dat	UKBB_23121	331221	UKBB Neale	2018	Arm fat-free mass (right)	Rapid
+1279.dat	UKBB_1279	286550	UKBB Neale	2018	Exposure to tobacco smoke outside home	Rapid
+1687.dat	UKBB_1687	331693	UKBB Neale	2018	Comparative body size at age 10	Rapid
+1873.dat	UKBB_1873	332194	UKBB Neale	2018	Number of full brothers	Rapid
+2000.dat	UKBB_2000	323766	UKBB Neale	2018	Worry too long after embarrassment	Rapid
+2100.dat	UKBB_2100	335888	UKBB Neale	2018	Seen a psychiatrist for nerves, anxiety, tension or depression	Rapid
+2316.dat	UKBB_2316	331257	UKBB Neale	2018	Wheeze or whistling in the chest in last year	Rapid
+2405.dat	UKBB_2405	154888	UKBB Neale	2018	Number of children fathered	Rapid
+2664_3.dat	UKBB_2664_3	124798	UKBB Neale	2018	Reason for reducing amount of alcohol drunk: Health precaution	Rapid
+2754.dat	UKBB_2754	123846	UKBB Neale	2018	Age at first live birth	Rapid
+4196.dat	UKBB_4196	110099	UKBB Neale	2018	Pulse wave peak to peak time	Rapid
+4548.dat	UKBB_4548	110964	UKBB Neale	2018	Health satisfaction	Rapid
+4717.dat	UKBB_4717	109508	UKBB Neale	2018	Shortness of breath walking on level ground	Rapid
+6138_1.dat	UKBB_6138_1	334070	UKBB Neale	2018	Qualifications: College or University degree	Rapid
+6148_100.dat	UKBB_6148_100	108817	UKBB Neale	2018	Eye problems/disorders: None of the above	Rapid
+6149_4.dat	UKBB_6149_4	336138	UKBB Neale	2018	Mouth/teeth dental problems: Loose teeth	Rapid
+6152_6.dat	UKBB_6152_6	336782	UKBB Neale	2018	Emphysema/chronic bronchitis	Rapid
+6154_100.dat	UKBB_6154_100	333581	UKBB Neale	2018	Medication for pain relief, constipation, heartburn	Rapid
+6159_3.dat	UKBB_6159_3	336650	UKBB Neale	2018	Neck or shoulder pain in last month	Rapid
+6177_2.dat	UKBB_6177_2	154702	UKBB Neale	2018	Medication: Blood pressure	Rapid
+20002_1074.dat	UKBB_20002_1074	337159	UKBB Neale	2018	Angina (self-reported)	Rapid
+20002_1265.dat	UKBB_20002_1265	337159	UKBB Neale	2018	Migraine (self-reported)	Rapid
+20003_1140871310.dat	UKBB_20003_1140871310	337159	UKBB Neale	2018	Medication: Ibuprofen	Rapid
+20003_1140875408.dat	UKBB_20003_1140875408	337159	UKBB Neale	2018	Medication: Allopurinol	Rapid
+20003_1140865634.dat	UKBB_20003_1140865634	337159	UKBB Neale	2018	Medication: Omeprazole	Rapid
+20003_1141176832.dat	UKBB_20003_1141176832	337159	UKBB Neale	2018	Medication: Seretide 50 evohaler	Rapid
+20023.dat	UKBB_20023	335139	UKBB Neale	2018	Mean time to correctly identify matches	Rapid
+20110_1.dat	UKBB_20110_1	311606	UKBB Neale	2018	Heart disease (mother)	Rapid
+20152.dat	UKBB_20152	255492	UKBB Neale	2018	Reproduciblity of spirometry measurement using ERS/ATS criteria	Rapid
+23100.dat	UKBB_23100	330762	UKBB Neale	2018	Whole body fat mass	Rapid
+23112.dat	UKBB_23112	331293	UKBB Neale	2018	Leg fat mass (right)	Rapid
+23122.dat	UKBB_23122	331216	UKBB Neale	2018	Arm predicted mass (right)	Rapid
+102.dat	UKBB_102	317756	UKBB Neale	2018	Pulse rate, automated reading	Rapid
+1558.dat	UKBB_1558	336965	UKBB Neale	2018	Alcohol intake frequency.	Rapid
+1697.dat	UKBB_1697	332021	UKBB Neale	2018	Comparative height size at age 10	Rapid
+1883.dat	UKBB_1883	332255	UKBB Neale	2018	Number of full sisters	Rapid
+2010.dat	UKBB_2010	325248	UKBB Neale	2018	Suffer from \'nerves\'	Rapid
+2178.dat	UKBB_2178	336020	UKBB Neale	2018	Overall health rating	Rapid
+2335.dat	UKBB_2335	334053	UKBB Neale	2018	Chest pain or discomfort	Rapid
+2415.dat	UKBB_2415	155045	UKBB Neale	2018	Had major operations	Rapid
+2764.dat	UKBB_2764	123676	UKBB Neale	2018	Age at last live birth	Rapid
+4559.dat	UKBB_4559	110290	UKBB Neale	2018	Family relationship satisfaction	Rapid
+4728.dat	UKBB_4728	110337	UKBB Neale	2018	Leg pain on walking	Rapid
+6138_5.dat	UKBB_6138_5	334070	UKBB Neale	2018	Qualifications: NVQ or HND or HNC or equivalent	Rapid
+6143_1.dat	UKBB_6143_1	177550	UKBB Neale	2018	Commuting to job workplace: Car/motor vehicle	Rapid
+6145_100.dat	UKBB_6145_100	335219	UKBB Neale	2018	Illness, injury, bereavement, stress in last 2 years	Rapid
+6154_1.dat	UKBB_6154_1	333581	UKBB Neale	2018	Medication: Aspirin	Rapid
+6155_3.dat	UKBB_6155_3	335591	UKBB Neale	2018	Supplements: Vitamin C	Rapid
+6159_7.dat	UKBB_6159_7	336650	UKBB Neale	2018	Knee pain experienced in last month	Rapid
+20002_1065.dat	UKBB_20002_1065	337159	UKBB Neale	2018	Hypertension  (Self-reported)	Rapid
+20002_1138.dat	UKBB_20002_1138	337159	UKBB Neale	2018	Gastro-oesophageal reflux (gord) / gastric reflux (Self-reported)	Rapid
+20107_1.dat	UKBB_20107_1	298237	UKBB Neale	2018	Illnesses of father: Heart disease	Rapid
+20111_9.dat	UKBB_20111_9	261075	UKBB Neale	2018	Illnesses of siblings: Diabetes	Rapid
+20116_1.dat	UKBB_20116_1	336024	UKBB Neale	2018	Smoking status: Previous	Rapid
+20153.dat	UKBB_20153	110423	UKBB Neale	2018	Forced expiratory volume in 1-second (FEV1), predicted	Rapid
+23101.dat	UKBB_23101	331291	UKBB Neale	2018	Whole body fat-free mass	Rapid
+23113.dat	UKBB_23113	331285	UKBB Neale	2018	Leg fat-free mass (right)	Rapid
+23123.dat	UKBB_23123	331198	UKBB Neale	2018	Arm fat percentage (left)	Rapid
+1568.dat	UKBB_1568	241008	UKBB Neale	2018	Average weekly red wine intake	Rapid
+1707_2.dat	UKBB_1707_2	337130	UKBB Neale	2018	Handedness (chirality/laterality): Left-handed	Rapid
+1920.dat	UKBB_1920	329428	UKBB Neale	2018	Mood swings	Rapid
+2020.dat	UKBB_2020	332263	UKBB Neale	2018	Loneliness, isolation	Rapid
+2188.dat	UKBB_2188	329663	UKBB Neale	2018	Long-standing illness, disability or infirmity	Rapid
+2345.dat	UKBB_2345	332011	UKBB Neale	2018	Ever had bowel cancer screening	Rapid
+2443.dat	UKBB_2443	336473	UKBB Neale	2018	Diabetes diagnosed by doctor	Rapid
+2774.dat	UKBB_2774	178474	UKBB Neale	2018	Ever had stillbirth, spontaneous miscarriage or termination	Rapid
+4570.dat	UKBB_4570	110118	UKBB Neale	2018	Friendships satisfaction	Rapid
+6138_6.dat	UKBB_6138_6	334070	UKBB Neale	2018	Qualifications: nursing, teaching	Rapid
+6143_2.dat	UKBB_6143_2	177550	UKBB Neale	2018	Commuting to job workplace: Walk	Rapid
+6148_4.dat	UKBB_6148_4	108817	UKBB Neale	2018	Eye problems/disorders: Cataract	Rapid
+6149_1.dat	UKBB_6149_1	336138	UKBB Neale	2018	Mouth/teeth dental problems: Mouth ulcers	Rapid
+6153_100.dat	UKBB_6153_100	180203	UKBB Neale	2018	Medication for cholesterol	Rapid
+6154_6.dat	UKBB_6154_6	333582	UKBB Neale	2018	Medication: Laxatives (e.g. Dulcolax, Senokot)	Rapid
+6159_4.dat	UKBB_6159_4	336650	UKBB Neale	2018	Back pain experienced in last month 	Rapid
+6179_100.dat	UKBB_6179_100	336314	UKBB Neale	2018	Mineral and other dietary supplements	Rapid
+20001_1002.dat	UKBB_20001_1002	337159	UKBB Neale	2018	Breast cancer (self-reported)	Rapid
+20002_1111.dat	UKBB_20002_1111	337159	UKBB Neale	2018	Asthma (self-reported)	Rapid
+20002_1309.dat	UKBB_20002_1309	337159	UKBB Neale	2018	Osteoporosis (self-reported)	Rapid
+20002_1465.dat	UKBB_20002_1465	337159	UKBB Neale	2018	Osteoarthritis (self-reported)	Rapid
+20003_1140868226.dat	UKBB_20003_1140868226	337159	UKBB Neale	2018	Medication: Aspirin	Rapid
+20003_1140874744.dat	UKBB_20003_1140874744	337159	UKBB Neale	2018	Medication: Gliclazide	Rapid
+20107_100.dat	UKBB_20107_100	294791	UKBB Neale	2018	Illnesses of father: None of the above (group 1)	Rapid
+20116_2.dat	UKBB_20116_2	336024	UKBB Neale	2018	Smoking status: Current	Rapid
+20154.dat	UKBB_20154	110423	UKBB Neale	2018	Forced expiratory volume in 1-second (FEV1), predicted percentage	Rapid
+23102.dat	UKBB_23102	331315	UKBB Neale	2018	Whole body water mass	Rapid
+23114.dat	UKBB_23114	331285	UKBB Neale	2018	Leg predicted mass (right)	Rapid
+23124.dat	UKBB_23124	331164	UKBB Neale	2018	Arm fat mass (left)	Rapid
+135.dat	UKBB_135	337159	UKBB Neale	2018	Number of self-reported non-cancer illnesses	Rapid
+1578.dat	UKBB_1578	240864	UKBB Neale	2018	Average weekly champagne plus white wine intake	Rapid
+1930.dat	UKBB_1930	331856	UKBB Neale	2018	Miserableness	Rapid
+2030.dat	UKBB_2030	328769	UKBB Neale	2018	Guilty feelings	Rapid
+2207.dat	UKBB_2207	336919	UKBB Neale	2018	Wears glasses or contact lenses	Rapid
+2784.dat	UKBB_2784	180749	UKBB Neale	2018	Ever taken oral contraceptive pill	Rapid
+3393.dat	UKBB_3393	204240	UKBB Neale	2018	Hearing aid user	Rapid
+3526.dat	UKBB_3526	199690	UKBB Neale	2018	Mother\'s age at death	Rapid
+4581.dat	UKBB_4581	110814	UKBB Neale	2018	Financial situation satisfaction	Rapid
+4803_11.dat	UKBB_4803_11	109411	UKBB Neale	2018	Tinnitus: Yes, now most or all of the time	Rapid
+6143_3.dat	UKBB_6143_3	177550	UKBB Neale	2018	Commuting to job workplace: Public transport	Rapid
+6148_2.dat	UKBB_6148_2	108817	UKBB Neale	2018	Eye problems/disorders: Glaucoma	Rapid
+6153_2.dat	UKBB_6153_2	180203	UKBB Neale	2018	Medication: Blood pressure	Rapid
+6159_6.dat	UKBB_6159_6	336650	UKBB Neale	2018	Pain type(s) experienced in last month: Hip pain	Rapid
+6179_1.dat	UKBB_6179_1	336314	UKBB Neale	2018	Supplements: Fish oil (including cod liver oil)	Rapid
+20002_1473.dat	UKBB_20002_1473	337159	UKBB Neale	2018	High cholesterol (Self-reported)	Rapid
+20003_1141194794.dat	UKBB_20003_1141194794	337159	UKBB Neale	2018	Medication: Bendroflumethiazide	Rapid
+20003_2038460150.dat	UKBB_20003_2038460150	337159	UKBB Neale	2018	Medication: Paracetamol	Rapid
+20003_1140860696.dat	UKBB_20003_1140860696	337159	UKBB Neale	2018	Medication: Lisinopril	Rapid
+20003_1141146234.dat	UKBB_20003_1141146234	337159	UKBB Neale	2018	Medication: Atorvastatin	Rapid
+20107_8.dat	UKBB_20107_8	294950	UKBB Neale	2018	Illnesses of father: High blood pressure	Rapid
+20117_0.dat	UKBB_20117_0	336965	UKBB Neale	2018	Alcohol drinker status: Never	Rapid
+20160.dat	UKBB_20160	336067	UKBB Neale	2018	Ever smoked	Rapid
+23105.dat	UKBB_23105	331307	UKBB Neale	2018	Basal metabolic rate	Rapid
+23115.dat	UKBB_23115	331278	UKBB Neale	2018	Leg fat percentage (left)	Rapid
+23125.dat	UKBB_23125	331159	UKBB Neale	2018	Arm fat-free mass (left)	Rapid
+136.dat	UKBB_136	337159	UKBB Neale	2018	Number of operations (self-reported)	Rapid
+1588.dat	UKBB_1588	241447	UKBB Neale	2018	Average weekly beer plus cider intake	Rapid
+1940.dat	UKBB_1940	322668	UKBB Neale	2018	Irritability	Rapid
+2040.dat	UKBB_2040	325821	UKBB Neale	2018	Risk taking	Rapid
+2365.dat	UKBB_2365	147970	UKBB Neale	2018	Ever had prostate specific antigen (PSA) test	Rapid
+2463.dat	UKBB_2463	335587	UKBB Neale	2018	Fractured/broken bones in last 5 years	Rapid
+2794.dat	UKBB_2794	144113	UKBB Neale	2018	Age started oral contraceptive pill	Rapid
+4079.dat	UKBB_4079	317756	UKBB Neale	2018	Diastolic blood pressure, automated reading	Rapid
+4598.dat	UKBB_4598	109229	UKBB Neale	2018	Ever depressed for a whole week	Rapid
+6142_4.dat	UKBB_6142_4	336252	UKBB Neale	2018	Unable to work because of sickness or disability	Rapid
+6143_4.dat	UKBB_6143_4	177550	UKBB Neale	2018	Commuting to job workplace: Cycle	Rapid
+6147_1.dat	UKBB_6147_1	335700	UKBB Neale	2018	Myopia	Rapid
+6150_100.dat	UKBB_6150_100	336683	UKBB Neale	2018	Vascular/heart problems diagnosed by doctor	Rapid
+6153_1.dat	UKBB_6153_1	180203	UKBB Neale	2018	Cholesterol lowering medication	Rapid
+6154_5.dat	UKBB_6154_5	333581	UKBB Neale	2018	Medication: Omeprazole (e.g. Zanprol)	Rapid
+6159_100.dat	UKBB_6159_100	336650	UKBB Neale	2018	Pain experienced in last month	Rapid
+6179_3.dat	UKBB_6179_3	336314	UKBB Neale	2018	Supplements: Calcium	Rapid
+20001_1061.dat	UKBB_20001_1061	337159	UKBB Neale	2018	Basal cell carcinoma (self-reported)	Rapid
+20002_1075.dat	UKBB_20002_1075	337159	UKBB Neale	2018	Heart attack/myocardial infarction (self-reported)	Rapid
+20002_1094.dat	UKBB_20002_1094	337159	UKBB Neale	2018	Deep venous thrombosis (DVT) (self-reported)	Rapid
+20111_1.dat	UKBB_20111_1	261582	UKBB Neale	2018	Heart disease (siblings)	Rapid
+20117_1.dat	UKBB_20117_1	336965	UKBB Neale	2018	Alcohol drinker status: Previous	Rapid
+20161.dat	UKBB_20161	101726	UKBB Neale	2018	Pack years of smoking	Rapid
+23106.dat	UKBB_23106	331284	UKBB Neale	2018	Impedance of whole body	Rapid
+23116.dat	UKBB_23116	331275	UKBB Neale	2018	Leg fat mass (left)	Rapid
+23126.dat	UKBB_23126	331146	UKBB Neale	2018	Arm predicted mass (left)	Rapid
