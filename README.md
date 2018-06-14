@@ -1,6 +1,6 @@
 # TWAS HUB
 
-Code for running large-scale TWAS analyses and producing static Markdown reports. This repository contains scripts that compute TWAS statistics for many traits, merge and annotate them, produce reports, and generate an interactive web-site (see the jekyll directory).
+Code for running large-scale TWAS analyses and producing static Markdown reports. This repository contains scripts that compute TWAS statistics for many traits, merge and annotate them, produce reports, and generate an interactive web-site (see the jekyll directory). Note: for 324 traits, this analysis resulted in ~60,000 reports for a total of 2GB.
 
 ## Parameter files
 
