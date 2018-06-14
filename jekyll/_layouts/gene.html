@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  {% include headers.html %}
+  
+	<script type="text/javascript" class="init">
+		$(document).ready(function() {
+ 			$('table#models').DataTable( {
+   				lengthChange: false,
+   				paging: false,
+   				info: false,
+   				searching: true,
+   				"language": {
+    				search: '<i class="fa fa-search" aria-hidden="true"></i>'
+    			},
+			  "columnDefs": [ { "className": "dt-left dt-head-left", "targets": [0,1,2] },{ "className": "dt-right", "targets": '_all' } ] 
+  			} );
+ 			$('table#assoc').DataTable( {
+   				lengthChange: false,
+   				paging: false,
+   				info: false,
+   				searching: true,
+   				scrollX: true,
+   				scrollY: 400,
+   				"autoWidth": true,
+   				order: [[1, 'des']],
+   				"language": {
+    				search: '<i class="fa fa-search" aria-hidden="true"></i>'
+    			},
+			  "columnDefs": [
+			    {
+				"targets": [0,1,2,3],
+				"createdCell": function (td, cellData, rowData, row, col) { $(td).css('background-color', 'white') }
+				},{
+				"targets": '_all',
+				"createdCell": function (td, cellData, rowData, row, col) {
+				  if ( cellData < -10 ) {
+					$(td).css({'background-color':'#053061','color':'white'})
+				  } else if ( cellData < -7 ) {
+					$(td).css('background-color', '#2166ac')
+				  } else if ( cellData < -5 ) {
+					$(td).css('background-color', '#4393c3')
+				  } else if ( cellData < -3 ) {
+				    $(td).css('background-color', '#92c5de')
+				  } else if ( cellData < -2 ) {
+				    $(td).css('background-color', '#d1e5f0')
+				  }	else if ( cellData > 10 ) {
+				    $(td).css({'background-color':'#67001f','color':'white'})  
+				  }	else if ( cellData > 7 ) {
+				    $(td).css('background-color', '#b2182b')
+				  }	else if ( cellData > 5 ) {
+				    $(td).css('background-color', '#d6604d')  
+				  } 	else if ( cellData > 3 ) {
+				    $(td).css('background-color', '#f4a582')
+				  }	else if ( cellData > 2 ) {
+				    $(td).css('background-color', '#fddbc7')
+				  }	else {
+				    $(td).css('background-color', 'white')
+				  }
+				}
+				},{ "width": "150px", "targets": 0 },{ "width": "15px", "targets": '_all' },{ "className": "dt-left dt-head-left", "targets": 0 },{ "className": "dt-right", "targets": '_all' } ]  			
+  			} );  			  						
+		} );
+	</script>
+</head>
+<body>
+	
+  {% include navigation.html %}
+
+  <section id="wrapper" class="{% if page.profile %}home{% endif %}">
+    {{ content }}
+
+  {% include footer.html %}
+  </section>
+  {% include analytics.html %}
+</body>
+</html>
+
+
+

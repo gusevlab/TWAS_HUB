@@ -10,3 +10,4 @@ Code for running large-scale TWAS analyses and producing static Markdown reports
 * Submit `REPORT.sh` for each trait (see example `run_REPORT.sh`)
 * Run `Rscript REPORT_GENES.R` to scan through all traits and build individual gene reports (this takes a few hours) 
 * Run `Rscript REPORT_INDEX.R` to generate all index files (fast)
+* Copy `traits/`, `genes/`, and all `*.md` files to the `jekyll/` directory and then execute `jekyll build` to get the formatted web-site (or upload the directory to github-pages). See jekyll docs for more info. 

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  {% include headers.html %}
+  
+  <script src="{{ site.baseurl }}assets/js/manhattan.js"></script>
+	<script type="text/javascript" class="init">
+		$(document).ready(function() {
+ 			$('table#models').DataTable( {
+   				lengthChange: false,
+   				paging: false,
+   				info: false,
+   				searching: true,
+   				order: [[ 16, 'des' ], [ 12, 'asc' ]],
+   				"language": {
+    				search: '<i class="fa fa-search" aria-hidden="true"></i>'
+    			},
+    			"columnDefs": [ { "className": "dt-left dt-head-left", "targets": [0,1,2,3] },{ "className": "dt-right", "targets": '_all' } ]  
+
+  			} );	  						
+		} );
+	</script>
+</head>
+<body>
+	
+  {% include navigation.html %}
+
+  <section id="wrapper" class="{% if page.profile %}home{% endif %}">
+    {{ content }}
+
+  {% include footer.html %}
+  </section>
+  {% include analytics.html %}
+</body>
+</html>
+
+
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  {% include headers.html %}
+
+	<script type="text/javascript" class="init">
+		$(document).ready(function() {
+			$('table#panels').DataTable( {
+   				lengthChange: false,
+   				paging: false,
+   				info: false,
+   				scrollY: 200,
+   				order: [[4, 'des']],
+   				"language": {
+    				search: '<i class="fa fa-search" aria-hidden="true"></i>'
+    			},
+    			"columnDefs": [ { "className": "dt-left dt-head-left", "targets": [0,1] },{ "className": "dt-right", "targets": '_all' } ]  
+  			} );
+ 			$('table#pleiotropic').DataTable( {
+   				lengthChange: false,
+   				paging: false,
+   				info: false,
+   				searching: true,
+   				"scrollX": "100%",
+   				"scrollY": 400,
+   				autoWidth: false,
+   				order: [[1, 'des']],
+   				"language": {
+    				search: '<i class="fa fa-search" aria-hidden="true"></i>'
+    			},
+    			"columnDefs": [ { "className": "dt-left dt-head-left", "targets": [0,7] },{ "className": "dt-right", "targets": '_all' } ]  
+  			} );
+ 			$('table#loci').DataTable( {
+   				lengthChange: false,
+   				paging: false,
+   				info: false,
+   				searching: true,
+   				order: [[0, 'asc']],
+   				"language": {
+    				search: '<i class="fa fa-search" aria-hidden="true"></i>'
+    			},
+    			"columnDefs": [ { "className": "dt-left dt-head-left", "targets": [0,10] },{ "className": "dt-right", "targets": '_all' } ] 
+  			} );	  						
+		} );
+	</script>
+</head>
+<body>
+	
+  {% include navigation.html %}
+
+  <section id="wrapper">
+    {{ content }}
+
+  {% include footer.html %}
+  </section>
+  {% include analytics.html %}
+</body>
+</html>
+
+
+

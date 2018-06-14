@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  {% include headers.html %}
+
+	<script type="text/javascript" class="init">
+		$(document).ready(function() {
+			$('table').DataTable( {
+   				lengthChange: false,
+   				paging: false,
+   				info: false,
+   				"language": {
+    				search: '<i class="fa fa-search fa-2x" aria-hidden="true"></i>'
+    			},
+    			"columnDefs": [ { "className": "dt-left dt-head-left", "targets": [0,1,6] },{ "className": "dt-right", "targets": '_all' } ]   				
+  			} );
+		} );
+	</script>
+</head>
+<body>
+	
+  {% include navigation.html %}
+
+  <section id="wrapper" class="main">
+    {{ content }}
+  {% include footer.html %}
+  </section>
+  {% include analytics.html %}
+</body>
+</html>
+
+
+
