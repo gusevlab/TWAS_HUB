@@ -209,6 +209,11 @@ a.border {
 	border: 1px solid #dde9fc;
 	padding: 2px 4px;
 	font-size: 15px;
+	font-weight: bold;
+}
+
+.fa-file-archive {
+	font-size: 18px;
 }
 
 a {
