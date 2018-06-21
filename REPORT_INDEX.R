@@ -21,7 +21,7 @@ df.traits$num.total.genes = traits.nfo$NUM.GENES
 
 fout = "traits.md"
 cat( "---","title: Traits","permalink: traits/","layout: traits","---\n",sep='\n',file=fout)
-cat( "# *",nrow(df.traits),"* traits &middot; *",formatC(sum(df.traits$num.loci), format = "f", big.mark = ",", drop0trailing = TRUE),"* associated loci &middot; *", formatC(sum(df.traits$num.total.genes), format = "f", big.mark = ",", drop0trailing = TRUE),"*  associated genes\n\n",sep='',file=fout,append=T)
+cat( "# *",nrow(df.traits),"* traits &middot; *",formatC(sum(df.traits$num.loci), format = "f", big.mark = ",", drop0trailing = TRUE),"* associated loci &middot; *", formatC(sum(df.traits$num.total.genes), format = "f", big.mark = ",", drop0trailing = TRUE),"*  gene/trait associations\n\n",sep='',file=fout,append=T)
 cat( "| Type | Trait | N | # loci | # indep genes | # total genes | Ref. | Year |","| --- |",sep='\n',file=fout,append=T)
 write.table(df.traits[,c("type","link","n","num.loci","num.joint.genes","num.total.genes","ref","year")],quote=F,row.names=F,col.names=F,sep=' | ',file=fout,append=T)
 
