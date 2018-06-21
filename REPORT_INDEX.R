@@ -12,6 +12,8 @@ N.traits = nrow(tbl.traits)
 df.traits = data.frame( "type" = tbl.traits$TYPE , "name" = tbl.traits$NAME , "n" = tbl.traits$N , "num.loci" = rep(NA,N.traits) , "num.joint.genes" = rep(NA,N.traits) , "num.total.genes" = rep(NA,N.traits) , "ref" = tbl.traits$REF , "year" = tbl.traits$YEAR , row.names=tbl.traits$ID )
 df.traits$link = paste( "[" , df.traits$name , "]({{ site.baseurl }}traits/" , rownames(df.traits) , ")" , sep='' )
 
+df.traits$data = paste( "[ <i class=\"far fa-file-archive\" aria-hidden=\"true\"></i> ]({{ site.baseurl }}data/" , gsub(".dat","",tbl.traits$OUTPUT) , ".tar.bz2)" , sep='' )
+
 traits.nfo = read.table("traits.par.nfo",as.is=T,head=T)
 m = match( rownames(df.traits) , traits.nfo$ID )
 traits.nfo = traits.nfo[m,]
@@ -22,8 +24,8 @@ df.traits$num.total.genes = traits.nfo$NUM.GENES
 fout = "traits.md"
 cat( "---","title: Traits","permalink: traits/","layout: traits","---\n",sep='\n',file=fout)
 cat( "# *",nrow(df.traits),"* traits &middot; *",formatC(sum(df.traits$num.loci), format = "f", big.mark = ",", drop0trailing = TRUE),"* associated loci &middot; *", formatC(sum(df.traits$num.total.genes), format = "f", big.mark = ",", drop0trailing = TRUE),"*  gene/trait associations\n\n",sep='',file=fout,append=T)
-cat( "| Type | Trait | N | # loci | # indep genes | # total genes | Ref. | Year |","| --- |",sep='\n',file=fout,append=T)
-write.table(df.traits[,c("type","link","n","num.loci","num.joint.genes","num.total.genes","ref","year")],quote=F,row.names=F,col.names=F,sep=' | ',file=fout,append=T)
+cat( "| Type | Trait | N | # loci | # indep genes | # total genes | Ref. | Year | data | ","| --- |",sep='\n',file=fout,append=T)
+write.table(df.traits[,c("type","link","n","num.loci","num.joint.genes","num.total.genes","ref","year","data")],quote=F,row.names=F,col.names=F,sep=' | ',file=fout,append=T)
 
 fout = "models.md"
 cat( "---","title: Models","permalink: models/","layout: models","---\n",sep='\n',file=fout)
