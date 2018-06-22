@@ -14,7 +14,11 @@ TWAS hub is an interactive browser of results from integrative analyses of GWAS 
 
 ## How is TWAS hub generated?
 
-For each trait, a TWAS is carried out using the [FUSION](http://gusevlab.org/projects/fusion/) software. FUSON post-processing is then used to extract all significant associations (after Bonferroni correction) and grouped into contiguous loci and a step-wise conditional analysis is performed to identify independent associations (see more below). TWAS-reporter is then run on all traits to generate Markdown formatted reports which are human readable or can be flexibly converted to html/pdf/etc. We use a custom Jekyll layout to present these reports as a static web-site with data elements made interactive through javascript. Tables are handled by datatables.js and plots are handled by plotly.js.
+For each trait, a TWAS is carried out using the [FUSION](http://gusevlab.org/projects/fusion/) software. FUSON post-processing is then used to extract all significant associations (after Bonferroni correction) and grouped into contiguous loci and a step-wise conditional analysis is performed to identify independent associations (see more below). TWAS-reporter is then run on all traits to generate Markdown formatted reports which are human readable or can be flexibly converted to html/pdf/etc. We use a custom Jekyll layout to present these reports as a static web-site with data elements made interactive through javascript. Tables are handled by datatables.js and plots are handled by plotly.js. All code is available [on GitHub](https://github.com/gusevlab/TWAS_HUB). All data for each trait is available from the <i class="far fa-file-archive" aria-hidden="true"></i> links in the [TRAITS]({{ site.baseurl }}/traits){: .border} tab.
+
+## What does a TWAS association really mean?
+
+Please read this [blog post](http://sashagusev.github.io/2017-10/twas-vulnerabilities.html) for much more about interpreting TWAS signals and the relationship between TWAS, other methods, and complex disease architectures. 
 
 ## Predictive models and weights.
 
@@ -40,6 +44,22 @@ Hundreds of UK BioBank phenotypes were processed, analyzed, and made openly avai
 
 Our analyses would not be possible without GWAS and molecular data collection efforts by the referenced consortia and individuals. We are grateful to the many groups that have made data publicly available and accessible. 
 
+The TWAS hub logo is from [André Luiz Gollo](https://thenounproject.com/andreluizgollo/collection/medical-outlined/?i=843273) and the Noun Project.
+
+## What else can I read about TWAS?
+
+| [Mancuso et al. 2018 biorxiv ](https://doi.org/10.1101/236869) | A method for fine-mapping credible sets of TWAS genes |
+| [Barfield et al. 2018 Gen Epi](https://doi.org/10.1101/223263) | A method for distinguishing co-localization in TWAS tests |
+| [Gusev et al. 2018 biorxiv](https://doi.org/10.1101/330613) | TWAS of ovarian cancer |
+| [Mancuso et al. 2018 biorxiv](https://doi.org/10.1101/345736) | TWAS of prostate cancer |
+| [Wu et al. 2018 Nat Genet](https://www.ncbi.nlm.nih.gov/pubmed/29915430) | TWAS of breast cancer |
+| [Gusev et al. 2018 Nat Genet](https://www.ncbi.nlm.nih.gov/pubmed/29632383) | Integration of TWAS with chromatin features |
+| [Mancuso et al. 2017 AJHG](https://www.ncbi.nlm.nih.gov/pubmed/28238358) | TWAS of 30 traits and methods for cross-trait analyses |
+| [Gusev et al. 2016 Nat Genet](https://www.ncbi.nlm.nih.gov/pubmed/26854917) | Primary TWAS method paper |
+{: .flat}
+
 ## Change Log
 
-06/2018: 1st release, 324 traits.
+| 06/15/2018 | Updated with MDD, CD, IBD, UC, AD, reaction time, and verbal reasoning GWAS. |
+| 06/10/2018 | 1st release, 324 traits. |
+{: .flat}
