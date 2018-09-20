@@ -8,13 +8,13 @@ layout: about
 
 TWAS measures the genetic association between gene expression and a complex phenotype using only GWAS summary-level data (see: [Gusev et al. 2016 Nat Genet](https://www.ncbi.nlm.nih.gov/pubmed/26854917)). The TWAS central dogma is that associated genes are more likely to be causal mediators of the disease and thus informative of disease biology or as targets for experimental follow-up. 
 
-TWAS hub is an interactive browser of results from integrative analyses of GWAS and functional data for hundreds of traits and >100k expression models. The aim is facilitate the investigation of individual TWAS associations; pleiotropic disease/trait associations for a given gene of interest; predicted gene associations for a given disease/trait of interest with detailed per-locus statistics; and pleiotropic relationships between traits based on shared associated genes. See the [USAGE]({{ site.baseurl }}/usage){: .border} tab for detailed examples of each analysis type. TWAS hub was developed in the [Gusev Lab](http://gusevlab.org) at the Dana-Farber Cancer Institute and Harvard Medical School. For questions or comments please contact [alexander_gusev@dfci.harvard.edu](mailto:alexander_gusev@dfci.harvard.edu). Please cite [Mancuso et al. 2017 AJHG](https://www.ncbi.nlm.nih.gov/pubmed/28238358){: .border} if you find this resource useful.
+TWAS hub is an interactive browser of results from integrative analyses of GWAS and functional data for hundreds of traits and >100k expression models. The aim is facilitate the investigation of individual TWAS associations; pleiotropic disease/trait associations for a given gene of interest; predicted gene associations for a given disease/trait of interest with detailed per-locus statistics; and pleiotropic relationships between traits based on shared associated genes. See the [USAGE](/usage){: .border} tab for detailed examples of each analysis type. TWAS hub was developed in the [Gusev Lab](http://gusevlab.org) at the Dana-Farber Cancer Institute and Harvard Medical School. For questions or comments please contact [alexander_gusev@dfci.harvard.edu](mailto:alexander_gusev@dfci.harvard.edu). Please cite [Mancuso et al. 2017 AJHG](https://www.ncbi.nlm.nih.gov/pubmed/28238358){: .border} if you find this resource useful.
 
 # FAQ
 
 ## How is TWAS hub generated?
 
-For each trait, a TWAS is carried out using the [FUSION](http://gusevlab.org/projects/fusion/) software. FUSON post-processing is then used to extract all significant associations (after Bonferroni correction) and grouped into contiguous loci and a step-wise conditional analysis is performed to identify independent associations (see more below). TWAS-reporter is then run on all traits to generate Markdown formatted reports which are human readable or can be flexibly converted to html/pdf/etc. We use a custom Jekyll layout to present these reports as a static web-site with data elements made interactive through javascript. Tables are handled by datatables.js and plots are handled by plotly.js. All code is available [on GitHub](https://github.com/gusevlab/TWAS_HUB). All data for each trait is available from the <i class="far fa-file-archive" aria-hidden="true"></i> links in the [TRAITS]({{ site.baseurl }}/traits){: .border} tab.
+For each trait, a TWAS is carried out using the [FUSION](http://gusevlab.org/projects/fusion/) software. FUSON post-processing is then used to extract all significant associations (after Bonferroni correction) and grouped into contiguous loci and a step-wise conditional analysis is performed to identify independent associations (see more below). TWAS-reporter is then run on all traits to generate Markdown formatted reports which are human readable or can be flexibly converted to html/pdf/etc. We use a custom Jekyll layout to present these reports as a static web-site with data elements made interactive through javascript. Tables are handled by datatables.js and plots are handled by plotly.js. All code is available [on GitHub](https://github.com/gusevlab/TWAS_HUB). All data for each trait is available from the <i class="far fa-file-archive" aria-hidden="true"></i> links in the [TRAITS](/traits){: .border} tab.
 
 ## What does a TWAS association really mean?
 
@@ -22,7 +22,7 @@ Please read this [blog post](http://sashagusev.github.io/2017-10/twas-vulnerabil
 
 ## Predictive models and weights.
 
-The predictive models and weight used for all analyses are listed in the [MODELS]({{ site.baseurl }}/models/){: .border} page and available for download through the [FUSION](http://gusevlab.org/projects/fusion/) web-site. Genotypes are restricted to common, well-imputed HapMap3 SNPs that satisfied standard quality-control thresholds on missingness and hardy-weinberg equilibrium. Typically, gene expression was analyzed with covariates for sex, age, genetic ancestry, and multiple gene expression PCs (specific panel details are presented on the main FUSION web-site). *Note: for analyses of gene expression in tumors local copy number alterations were not modelled, we are evaluating  the best way to adjust for somatic events so these weights may be updated*.
+The predictive models and weight used for all analyses are listed in the [MODELS](/models/){: .border} page and available for download through the [FUSION](http://gusevlab.org/projects/fusion/) web-site. Genotypes are restricted to common, well-imputed HapMap3 SNPs that satisfied standard quality-control thresholds on missingness and hardy-weinberg equilibrium. Typically, gene expression was analyzed with covariates for sex, age, genetic ancestry, and multiple gene expression PCs (specific panel details are presented on the main FUSION web-site). *Note: for analyses of gene expression in tumors local copy number alterations were not modelled, we are evaluating  the best way to adjust for somatic events so these weights may be updated*.
 
 ## Interpretation of low significance models.
 
@@ -60,6 +60,7 @@ The TWAS hub logo is from [André Luiz Gollo](https://thenounproject.com/andrelu
 
 ## Change Log
 
+| 09/19/2018 | Corrected effect direction for Crohn's Disease and UKBB rapid traits (h/t David Kelley for spotting this issue). Added ~55,000 expression models from TCGA. Added Bipolar/Schizophrenia, Depression/Worry, Intelligence TWAS. |
 | 06/15/2018 | Updated with MDD, CD, IBD, UC, AD, reaction time, and verbal reasoning GWAS. |
 | 06/10/2018 | 1st release, 324 traits. |
 {: .flat}

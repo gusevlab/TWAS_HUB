@@ -26,7 +26,7 @@ cat( "| Type | Trait | N | # loci | # indep genes | # total genes | Ref. | Year 
 write.table(df.traits[,c("type","link","n","num.loci","num.joint.genes","num.total.genes","ref","year")],quote=F,row.names=F,col.names=F,sep=' | ',file=fout,append=T)
 
 fout = "models.md"
-cat( "---","title: Models","permalink: models/","layout: models","---\n",sep='\n',file=fout)
+cat( "---","title: Models","permalink: models/","layout: about","---\n",sep='\n',file=fout)
 cat( "# Models \n\n",sep='',file=fout,append=T)
 
 cat( "| Study | Tissue | N |","| --- |",sep='\n',file=fout,append=T)
@@ -67,7 +67,7 @@ for ( i in 1:length(uni.genes) ) {
 
 # iterate over each trait and count the number of significant genes
 for ( i in 1:N.traits ) {
-	system( paste( 'bash APPEND_GENES.sh ',tbl.traits$OUTPUT[i]," \"",df.traits$link[i],"\" ",traits.nfo$AVG.CHISQ[i],"\n" ,sep='' ) )
+	system( paste( 'bash APPEND_GENE.sh ',tbl.traits$OUTPUT[i]," \"",df.traits$link[i],"\" ",traits.nfo$AVG.CHISQ[i],"\n" ,sep='' ) )
 	cat( i , '\n' )
 }
 

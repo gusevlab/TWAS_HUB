@@ -12,7 +12,7 @@ done
 tail -n+2 traits.par | while read line; do
 dat=`echo $line | awk '{ print $1 }' | sed 's/.dat//'`
 id=`echo $line | awk '{ print $2 }'`
-avgchisq=`tail -n+2 $dat.dat | awk '{ print $19^2 }' | awk -f ~/tools/avg.awk | awk '{ print $2 }'`
+avgchisq=`tail -n+2 $dat.dat | awk '{ print $19^2 }' | awk -f avg.awk`
 cat $dat/*.report | awk -v chi=$avgchisq -v id=$id 'BEGIN { loc=0; tothit=0; tot=0; } $1 != "FILE" { tothit += $5; tot+=$6; loc++; } END { print id,loc,tot,tothit,chi }'
 done | awk 'BEGIN { print "ID NUM.LOCI NUM.JOINT.GENES NUM.GENES AVG.CHISQ" } { print $0 }'  | tr ' ' '\t' > traits.par.nfo
 

@@ -1,19 +1,23 @@
 arg = commandArgs(trailingOnly=T)
 CUR.TRAIT = as.numeric(arg[1])
 
+cat("reading traits.par\n")
 tbl.traits = read.table("traits.par",as.is=T,head=T,sep='\t',quote="")
 N.traits = nrow(tbl.traits)
 df.traits = data.frame( "name" = tbl.traits$NAME , "n" = tbl.traits$N , "num.genes" = rep(NA,N.traits) , "num.models" = rep(NA,N.traits) , "ref" = tbl.traits$REF , "year" = tbl.traits$YEAR , row.names=tbl.traits$ID )
 df.traits$link = paste( "[" , df.traits$name , "]({{ site.baseurl }}traits/" , rownames(df.traits) , ")" , sep='' )
 
+cat("reading panels.par\n")
 tbl.panels = read.table("panels.par",as.is=T,head=T,sep='\t')
 N.models = nrow(tbl.panels)
 df.panels = data.frame( "study"=tbl.panels$STUDY , "tissue"=tbl.panels$TISSUE , "num.hits" = rep(0,N.models) , "num.traits" = rep(0,N.models) , row.names=tbl.panels$ID )
 
+cat("reading all.models.par\n")
 tbl.models.pos = read.table("all.models.par",as.is=T,head=T)
 m = match( tbl.models.pos$PANEL , tbl.panels$PANEL )
 tbl.models.pos$PANEL = paste( tbl.panels$STUDY , " | " , tbl.panels$TISSUE , sep='' )[ m ] 
 
+cat("reading traits.par.nfo\n")
 traits.nfo = read.table("traits.par.nfo",as.is=T,head=T)
 m = match( rownames(df.traits) , traits.nfo$ID )
 traits.nfo = traits.nfo[m,]
@@ -26,6 +30,7 @@ df.genes$link = paste( '*' , paste( "[" , df.genes$gene , "]({{ site.baseurl }}g
 # iterate over each trait and count the number of significant genes
 i = CUR.TRAIT
 
+cat("reading" , tbl.traits$OUTPUT[i] , '\n')
 cur = read.table( tbl.traits$OUTPUT[i] , as.is=T , head=T , sep='\t' )
 n = nrow(cur)
 top.models = which(as.numeric(cur$TWAS.P) < 0.05/n)

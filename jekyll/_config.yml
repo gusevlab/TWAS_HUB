@@ -9,11 +9,11 @@ highlighter: rouge
 
 plugins: [jekyll-paginate]
 paginate: 20
-domain_name: 'http://www.gusevlab.org/projects/twas_hub/'
+domain_name: 'http://www.twas-hub.org'
 google_analytics: 'UA-11813397-6'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
-baseurl: '/projects/twas_hub/'
+baseurl: '/'
 
 # Details for the RSS feed generator
 url:            ''

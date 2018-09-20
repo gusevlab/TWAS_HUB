@@ -28,7 +28,7 @@ cat( "| Type | Trait | N | # loci | # indep genes | # total genes | Ref. | Year 
 write.table(df.traits[,c("type","link","n","num.loci","num.joint.genes","num.total.genes","ref","year","data")],quote=F,row.names=F,col.names=F,sep=' | ',file=fout,append=T)
 
 fout = "models.md"
-cat( "---","title: Models","permalink: models/","layout: models","---\n",sep='\n',file=fout)
+cat( "---","title: Models","permalink: models/","layout: about","---\n",sep='\n',file=fout)
 cat( "# Models \n\n",sep='',file=fout,append=T)
 
 cat( "| Study | Tissue | N |","| --- |",sep='\n',file=fout,append=T)
